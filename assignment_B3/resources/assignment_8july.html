@@ -5,34 +5,56 @@
     <link rel="icon" href="E:\Angular_Batch\assignment_B3\home.png">
     <title>My profile</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: rgb(238, 247, 244);
+        }
+
+        .icon {
+            margin-right: 20px;
+            font-size: large;
+        }
+
+        #email,
+        #contact {
+            padding-left: 20px;
+        }
+
+        .display {
+            color: white;
+            padding-right: 40px;
+        }
+
+        nav {
+            background-color: rgb(5, 68, 104);
+            font-size: large;
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
 </head>
 
 <body>
-    <h1 align="center"><u>My Profile</u></h1>
-    <header style="color: rgb(220, 151, 24); font-size: 18px;">
-   
-        <hr>
-        <p> <i class="fa fa-user" aria-hidden="true"><b>&nbsp;&nbsp;&nbsp;Rohit Misal</b></i>&nbsp;&nbsp;&nbsp; |
-            &nbsp;&nbsp;&nbsp;
-            <i class="fa fa-envelope"
-                aria-hidden="true"><b>&nbsp;&nbsp;&nbsp;rohit.msl85@gmail.com</b></i>&nbsp;&nbsp;&nbsp; |
-            &nbsp;&nbsp;&nbsp;
-            <i class="fa fa-phone" aria-hidden="true"><b>&nbsp;&nbsp;&nbsp;9821 953 583</b></i>&nbsp;&nbsp;&nbsp; |
-            &nbsp;&nbsp;&nbsp;
-        </p>
+    <br>
+    <header style="text-align: right;">
+        <i class="fa fa-user icon" aria-hidden="true"></i>Rohit Misal
+        <i class="fa fa-envelope icon " id="email" aria-hidden="true"></i>rohit.msl85@gmail.com
+        <i class="fa fa-phone icon" id="contact" aria-hidden="true"></i>9821 953 583
     </header>
     <hr>
-
-    <div>
-        <p><a href="carrierobjective.html" target="my frame">HOME</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-            <a href="techcode.html" target="my frame">TECH STACK</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-            <a href="education.html" target="my frame">EDUCATION</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-            <a href="project.html" target="my frame">PROJECT</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-            <a href="hobbies.html" target="my frame">HOBBIES</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-            <a href="personalDetails.html" target="my frame">PERSONAL DETAILS</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-            <a href="other.html" target="my frame">OTHER</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-        </p>
-        <iframe src="carrierobjective.html" name="my frame" frameborder="0" width="1200" height="500"></iframe>
-    </div>
+    <nav><a href="carrierobjective.html" class="display" target="my frame">HOME</a>
+        <a href="techcode.html" class="display" target="my frame">TECH STACK</a>
+        <a href="education.html" class="display" target="my frame">EDUCATION</a>
+        <a href="project.html" class="display" target="my frame">PROJECT</a>
+        <a href="hobbies.html" class="display" target="my frame">HOBBIES</a>
+        <a href="personalDetails.html" class="display" target="my frame">PERSONAL DETAILS</a>
+        <a href="other.html" class="display" target="my frame">OTHER</a>
+    </nav>
+    <hr>
+    <iframe src="carrierobjective.html" name="my frame" frameborder="0" width="1200" height="500"></iframe>
 </body>
+
 </html>
